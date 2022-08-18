@@ -1,0 +1,56 @@
+.socials {
+  display: flex;
+  justify-content: center;
+  &__gap {
+    gap: 10px;
+  }
+  &__icon {
+    fill: var(--link-color);
+    transition: fill var(--transition-main);
+    .socials__link:hover &,
+    .socials__link:focus & {
+      fill: var(--light-titles-color);
+    }
+  }
+}
+
+.socials__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  &--light {
+    transition: fill var(--transition-main),
+      background-color var(--transition-main);
+  }
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
+}
+
+.social-block__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: var(--light-titles-color);
+}
+
+// basement socials
+.socials__basement {
+  gap: 10px;
+}
+
+.socials__link--dark {
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: background-color var(--transition-main);
+}
+
+.socials__icon--light {
+  fill: var(--light-titles-color);
+}

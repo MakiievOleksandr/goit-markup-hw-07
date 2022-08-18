@@ -1,0 +1,41 @@
+/*----------OUR TEAM-----------*/
+.team {
+  background-color: var(--third-bcg-color);
+  text-align: center;
+}
+// team cards
+.squad {
+  display: flex;
+  &__gap {
+    gap: 30px;
+  }
+  &__item {
+    width: 270px;
+    text-align: center;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    background-color: var(--first-bcg-color);
+  }
+  &__thumb {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  &__subtitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    margin-bottom: 10px;
+    letter-spacing: 0.03em;
+    color: var(--titles-color);
+  }
+  &__text {
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    margin-bottom: 16px;
+    color: var(--text-color);
+  }
+}

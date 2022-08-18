@@ -1,0 +1,39 @@
+/*----------BASEMENT------------*/
+.basement {
+  background-color: var(--sec-bcg-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+  &__block {
+    display: inline-block;
+  }
+  &__logo {
+    margin-bottom: 20px;
+  }
+}
+
+// address block
+.address {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--light-titles-color);
+  &__basement {
+    margin-bottom: 9px;
+  }
+  &__item:not(:last-child) {
+    margin-bottom: 9px;
+  }
+  &__link {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--basement-contacts-color);
+    transition: color var(--transition-main);
+    &:hover,
+    &:focus {
+      color: var(--accent-color);
+    }
+  }
+}
