@@ -18,23 +18,20 @@
     background-color: var(--first-bcg-color);
   }
   &__thumb {
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 30px 15px;
   }
   &__subtitle {
     font-weight: 500;
-    font-size: 16px;
-    line-height: 1.19;
+    font-size: $subtitle-fs;
+    line-height: $subtitle-lh;
     margin-bottom: 10px;
-    letter-spacing: 0.03em;
+    letter-spacing: $text-ls-main;
     color: var(--titles-color);
   }
   &__text {
-    font-size: 16px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
+    font-size: $subtitle-fs;
+    line-height: $subtitle-lh;
+    letter-spacing: $text-ls-main;
     margin-bottom: 16px;
     color: var(--text-color);
   }

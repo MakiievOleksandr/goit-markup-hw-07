@@ -15,9 +15,9 @@
   padding-top: 10px;
   padding-bottom: 10px;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+  font-size: $link-fs-main;
+  line-height: $link-lh-main;
+  letter-spacing: $link-ls-main;
   color: var(--text-color);
   transition: color var(--transition-main);
   &:hover,

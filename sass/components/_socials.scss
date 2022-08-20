@@ -33,9 +33,9 @@
 
 .social-block__title {
   font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
+  font-size: $text-fs-main;
+  line-height: $text-lh-sec;
+  letter-spacing: $text-ls-main;
   text-transform: uppercase;
   margin-bottom: 20px;
   color: var(--light-titles-color);

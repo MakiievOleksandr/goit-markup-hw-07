@@ -2,9 +2,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  font-size: $text-fs-main;
+  line-height: $text-lh-main;
+  letter-spacing: $text-ls-main;
   color: #757575;
 }
 
@@ -43,9 +43,9 @@
 
 .checkbox__link {
   display: inline-block;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  font-size: $text-fs-main;
+  line-height: $text-lh-main;
+  letter-spacing: $text-ls-main;
   text-decoration-line: underline;
   color: var(--accent-color);
 }

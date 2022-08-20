@@ -14,9 +14,9 @@
 // address block
 .address {
   display: inline-block;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  font-size: $text-fs-main;
+  line-height: $text-lh-main;
+  letter-spacing: $text-ls-main;
   color: var(--light-titles-color);
   &__basement {
     margin-bottom: 9px;
@@ -26,9 +26,9 @@
   }
   &__link {
     display: inline-block;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
+    font-size: $link-fs-main;
+    line-height: $link-lh-sec;
+    letter-spacing: $link-ls-sec;
     color: var(--basement-contacts-color);
     transition: color var(--transition-main);
     &:hover,
